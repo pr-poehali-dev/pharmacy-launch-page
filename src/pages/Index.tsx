@@ -14,38 +14,38 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center space-x-2">
-              <Icon name="Cross" className="text-emerald-600" size={32} />
-              <span className="text-2xl font-bold text-gray-900">АптекаБизнес</span>
+              <Icon name="Building2" className="text-slate-700" size={32} />
+              <span className="text-2xl font-bold text-slate-900">Фарма Консалт</span>
             </div>
             <nav className="hidden md:flex space-x-8">
-              <a href="#steps" className="text-gray-600 hover:text-emerald-600 transition-colors">Этапы</a>
-              <a href="#benefits" className="text-gray-600 hover:text-emerald-600 transition-colors">Преимущества</a>
-              <a href="#faq" className="text-gray-600 hover:text-emerald-600 transition-colors">Вопросы</a>
-              <a href="#contact" className="text-gray-600 hover:text-emerald-600 transition-colors">Контакты</a>
+              <a href="#steps" className="text-gray-600 hover:text-slate-700 transition-colors">Этапы</a>
+              <a href="#benefits" className="text-gray-600 hover:text-slate-700 transition-colors">Преимущества</a>
+              <a href="#faq" className="text-gray-600 hover:text-slate-700 transition-colors">Вопросы</a>
+              <a href="#contact" className="text-gray-600 hover:text-slate-700 transition-colors">Контакты</a>
             </nav>
           </div>
         </div>
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-emerald-50 to-white py-20">
+      <section className="bg-gradient-to-br from-slate-50 to-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <h1 className="text-5xl font-bold text-gray-900 leading-tight">
                 Весь процесс открытия аптечного бизнеса — 
-                <span className="text-emerald-600"> на одной странице</span>
+                <span className="text-slate-700"> на одной странице</span>
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
                 Получите пошаговое руководство по открытию аптеки с юридическими требованиями, 
                 лицензированием и готовыми решениями для успешного старта.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 text-lg">
+                <Button size="lg" className="bg-slate-800 hover:bg-slate-900 text-white px-8 py-4 text-lg">
                   Начать первый этап
                   <Icon name="ArrowRight" className="ml-2" size={20} />
                 </Button>
-                <Button variant="outline" size="lg" className="border-emerald-600 text-emerald-600 hover:bg-emerald-50 px-8 py-4 text-lg">
+                <Button variant="outline" size="lg" className="border-emerald-600 text-slate-700 hover:bg-emerald-50 px-8 py-4 text-lg">
                   Консультация
                 </Button>
               </div>
@@ -77,7 +77,7 @@ const Index = () => {
             <Card className="border-emerald-200 hover:border-emerald-400 transition-all duration-300 hover:shadow-lg">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Icon name="Building" className="text-emerald-600" size={32} />
+                  <Icon name="Building" className="text-slate-700" size={32} />
                 </div>
                 <CardTitle className="text-xl text-gray-900">
                   1. Зарегистрировать организацию или ИП
@@ -87,7 +87,7 @@ const Index = () => {
                 <CardDescription className="text-gray-600 text-center leading-relaxed">
                   Выберите правовую форму, подготовьте документы и зарегистрируйтесь в налоговой службе
                 </CardDescription>
-                <Button className="w-full mt-6 bg-emerald-600 hover:bg-emerald-700 text-white">
+                <Button className="w-full mt-6 bg-slate-800 hover:bg-slate-900 text-white">
                   Начать этап 1
                   <Icon name="ExternalLink" className="ml-2" size={16} />
                 </Button>
@@ -97,7 +97,7 @@ const Index = () => {
             <Card className="border-emerald-200 hover:border-emerald-400 transition-all duration-300 hover:shadow-lg">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Icon name="Shield" className="text-emerald-600" size={32} />
+                  <Icon name="Shield" className="text-slate-700" size={32} />
                 </div>
                 <CardTitle className="text-xl text-gray-900">
                   2. Получить санитарно-эпидемиологическое заключение
@@ -107,7 +107,7 @@ const Index = () => {
                 <CardDescription className="text-gray-600 text-center leading-relaxed">
                   Подготовьте помещение к проверке и получите разрешение от Роспотребнадзора
                 </CardDescription>
-                <Button variant="outline" className="w-full mt-6 border-emerald-600 text-emerald-600 hover:bg-emerald-50">
+                <Button variant="outline" className="w-full mt-6 border-emerald-600 text-slate-700 hover:bg-emerald-50">
                   Этап 2
                   <Icon name="Lock" className="ml-2" size={16} />
                 </Button>
@@ -117,7 +117,7 @@ const Index = () => {
             <Card className="border-emerald-200 hover:border-emerald-400 transition-all duration-300 hover:shadow-lg">
               <CardHeader className="text-center pb-6">
                 <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Icon name="FileCheck" className="text-emerald-600" size={32} />
+                  <Icon name="FileCheck" className="text-slate-700" size={32} />
                 </div>
                 <CardTitle className="text-xl text-gray-900">
                   3. Получить лицензию на фармацевтическую деятельность
@@ -127,7 +127,7 @@ const Index = () => {
                 <CardDescription className="text-gray-600 text-center leading-relaxed">
                   Соберите полный пакет документов и подайте заявление в Минздрав региона
                 </CardDescription>
-                <Button variant="outline" className="w-full mt-6 border-emerald-600 text-emerald-600 hover:bg-emerald-50">
+                <Button variant="outline" className="w-full mt-6 border-emerald-600 text-slate-700 hover:bg-emerald-50">
                   Этап 3
                   <Icon name="Lock" className="ml-2" size={16} />
                 </Button>
@@ -152,7 +152,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center space-y-4">
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto shadow-md">
-                <Icon name="TrendingUp" className="text-emerald-600" size={32} />
+                <Icon name="TrendingUp" className="text-slate-700" size={32} />
               </div>
               <h3 className="text-xl font-semibold text-gray-900">Стабильный спрос</h3>
               <p className="text-gray-600">Потребность в лекарствах не зависит от экономических кризисов</p>
@@ -160,7 +160,7 @@ const Index = () => {
 
             <div className="text-center space-y-4">
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto shadow-md">
-                <Icon name="DollarSign" className="text-emerald-600" size={32} />
+                <Icon name="DollarSign" className="text-slate-700" size={32} />
               </div>
               <h3 className="text-xl font-semibold text-gray-900">Высокая рентабельность</h3>
               <p className="text-gray-600">Средняя рентабельность аптечного бизнеса 15-25%</p>
@@ -168,7 +168,7 @@ const Index = () => {
 
             <div className="text-center space-y-4">
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto shadow-md">
-                <Icon name="Users" className="text-emerald-600" size={32} />
+                <Icon name="Users" className="text-slate-700" size={32} />
               </div>
               <h3 className="text-xl font-semibold text-gray-900">Социальная значимость</h3>
               <p className="text-gray-600">Вы помогаете людям заботиться о своем здоровье</p>
@@ -176,7 +176,7 @@ const Index = () => {
 
             <div className="text-center space-y-4">
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto shadow-md">
-                <Icon name="BarChart" className="text-emerald-600" size={32} />
+                <Icon name="BarChart" className="text-slate-700" size={32} />
               </div>
               <h3 className="text-xl font-semibold text-gray-900">Рост рынка</h3>
               <p className="text-gray-600">Фармацевтический рынок растет на 3-5% ежегодно</p>
@@ -199,7 +199,7 @@ const Index = () => {
 
           <Accordion type="single" collapsible className="space-y-4">
             <AccordionItem value="item-1" className="border border-emerald-200 rounded-lg px-6">
-              <AccordionTrigger className="text-left text-lg font-semibold text-gray-900 hover:text-emerald-600">
+              <AccordionTrigger className="text-left text-lg font-semibold text-gray-900 hover:text-slate-700">
                 Сколько стоит открыть аптеку?
               </AccordionTrigger>
               <AccordionContent className="text-gray-600 leading-relaxed">
@@ -209,7 +209,7 @@ const Index = () => {
             </AccordionItem>
 
             <AccordionItem value="item-2" className="border border-emerald-200 rounded-lg px-6">
-              <AccordionTrigger className="text-left text-lg font-semibold text-gray-900 hover:text-emerald-600">
+              <AccordionTrigger className="text-left text-lg font-semibold text-gray-900 hover:text-slate-700">
                 Сколько времени занимает получение лицензии?
               </AccordionTrigger>
               <AccordionContent className="text-gray-600 leading-relaxed">
@@ -219,7 +219,7 @@ const Index = () => {
             </AccordionItem>
 
             <AccordionItem value="item-3" className="border border-emerald-200 rounded-lg px-6">
-              <AccordionTrigger className="text-left text-lg font-semibold text-gray-900 hover:text-emerald-600">
+              <AccordionTrigger className="text-left text-lg font-semibold text-gray-900 hover:text-slate-700">
                 Какие требования к помещению аптеки?
               </AccordionTrigger>
               <AccordionContent className="text-gray-600 leading-relaxed">
@@ -229,7 +229,7 @@ const Index = () => {
             </AccordionItem>
 
             <AccordionItem value="item-4" className="border border-emerald-200 rounded-lg px-6">
-              <AccordionTrigger className="text-left text-lg font-semibold text-gray-900 hover:text-emerald-600">
+              <AccordionTrigger className="text-left text-lg font-semibold text-gray-900 hover:text-slate-700">
                 Нужно ли фармацевтическое образование?
               </AccordionTrigger>
               <AccordionContent className="text-gray-600 leading-relaxed">
@@ -309,7 +309,7 @@ const Index = () => {
                   <Label htmlFor="message">Вопрос</Label>
                   <Textarea id="message" placeholder="Опишите ваш вопрос..." rows={3} />
                 </div>
-                <Button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white">
+                <Button className="w-full bg-slate-800 hover:bg-slate-900 text-white">
                   Отправить заявку
                   <Icon name="Send" className="ml-2" size={16} />
                 </Button>
@@ -324,7 +324,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <Icon name="Cross" className="text-emerald-600" size={28} />
+              <Icon name="Cross" className="text-slate-700" size={28} />
               <span className="text-xl font-bold text-white">АптекаБизнес</span>
             </div>
             <div className="text-gray-400 text-sm">
